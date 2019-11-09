@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*Seleção de texto e link*/
+
+::selection {
+  background: rgb(167, 197, 114);
+}
+::-moz-selection {
+  background: rgb(167, 197, 114);
+}
+
+ /* unvisited link */
+ a:link {
+  color: rgb(167, 197, 114);
+}
+
+/* visited link */
+a:visited {
+  color: darkslategray
+}
+
+/* mouse over link */
+a:hover {
+  color: darkslategrey
+}
+
+ /* selected link */
+a:active {
+  color: rgb(167, 197, 114);
+}
+
+/* Banner */
+
+.banner {
+  background-image: url("../img/banner-bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 660px;
+}
+
+.banner-informacoes {
+  padding-top: 40vh;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Alegreya', serif;
+  font-size: 4.5rem;
+  margin: 0;
+  color: white;
+  text-transform: capitalize;
+}
+
+.banner-informacoes p {
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.banner-informacoes a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  background-color: darkolivegreen;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+  text-align: center;
+}
+
+.banner-informacoes a:hover {
+  background-color: darkslategrey;
+}
+
+h2,
+h3,
+h4 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Sobre mim */
+
+.sobre-mim,
+.redes-sociais {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 0 0 0;
+}
+
+.sobre-mim_habilidades {
+  display: flex;
+}
+
+.sobre-mim_habilidades_titulo {
+  max-width: 30rem;
+  margin-right: 2rem;
+}
+
+.sobre-mim_habilidades_titulo a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  background-color: darkolivegreen;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+  text-align: center;
+}
+
+/* Redes Sociais */
+
+.redes-sociais_item_medium,
+.redes-sociais_item_linkedin,
+.redes-sociais_item_github {
+  background-color: darkolivegreen;
+  padding: 1.2rem 1.2rem;
+  border-radius: 1rem;
+  text-align: inherit;
+}
+
+.redes-sociais_item a {
+  color: white;
+  text-decoration: none;
+}
+
+.redes-sociais_item {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.redes-sociais_item img {
+  min-width: 1rem;
+}
+
+/* FOOTER */
+
+footer {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  font-size: 12px;
+  margin: 5rem 0;
+}
